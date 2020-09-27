@@ -9,7 +9,8 @@
 // @grant        none
 // ==/UserScript==
 
+var prime_nav = document.querySelector('.top-nav__prime');
+
 setInterval(() => {
-    let prime_nav = document.querySelector('.top-nav__prime');
     prime_nav.parentNode.removeChild(prime_nav);
-}, 500);
+}, 3000);
